@@ -28,7 +28,9 @@ const root = __dirname
  
 const server  = http.createServer(function (req,res) {
     const url = parse(req.url)
+    console.log(url.pathname)
     const path = join(root,url.pathname)
+    console.log(path)
     fs.stat(path,function(err,stat) {
        if(err) {
            console.log('stat-err',err.code)
@@ -51,4 +53,4 @@ const server  = http.createServer(function (req,res) {
     }) 
 })
 
-server.listen(3000)
+server.listen(5000)

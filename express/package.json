@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.16.0",
+    "config-lite": "^2.1.0",
+    "mongolass": "^4.3.3",
+    "moment": "^2.22.2",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "1.1.1",
+    "body-parser": "1.18.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
